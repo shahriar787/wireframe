@@ -1,0 +1,208 @@
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+
+    .item img {
+        height: 280px !important;
+        width: 100% !important;
+    }
+    .carousel-caption .content_text {
+        position: absolute;
+        top: -130px;
+        left: 0;
+        right: 0;
+    }
+
+    .carousel-caption .content_text {
+        width: 100%;
+        margin: 0 auto;
+        height: 100px;
+        height: 140px;
+        background: #f0f;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .carousel-caption .content_text p {
+        font-size: 12px;
+        color: #222;
+        font-family: sans-serif;
+        font-weight: 400;
+        padding: 15px 10px;
+    }
+
+    .carousel-caption .get_quote {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+    }
+
+    .carousel-caption .get_quote a {
+        background-color: #127187;
+        padding: 10px 10px;
+        border: 0;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-next,
+    .carousel-control .icon-prev {
+        width: 30px;
+        height: 30px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    .carousel-caption .get_quote a {
+        background-color: #127187;
+        padding: 5px 8px;
+        border: 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .carousel-caption .get_quote {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        right: 0;
+    }
+    .caption .title {
+        font-size: 16px;
+    }
+    .control-btn {
+        position: absolute;
+        overflow: hidden;
+        width: 15%;
+        top: 24px;
+        right: 48px;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    .portfolio .title {
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #333;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .company_details h2 {
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #333;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .sum_btn a {
+        display: inline-block;
+        padding: 10px 21px;
+        border: 0;
+        border-radius: 0;
+        margin-left: 16px;
+        color: #fff;
+        background: #127187;
+        transition: .3s ease-in-out;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .summary .summary_content p {
+        font-size: 13px;
+        color: #333;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-family: 'Cairo', sans-serif;
+        line-height: 25px;
+    }
+    .testimonial_text h4 {
+        text-align: center;
+    }
+    .testimonial_text p {
+        font-size: 14px;
+    }
+    .subBtn .btn-default {
+        margin-bottom: 15px;
+    }
+    .event,
+    .creative,
+    .marketing {
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+
+    header .menu .navbar-default .navbar-nav > li > a {
+        color: #cccccc;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'PT Serif', serif;
+        transition: .5s ease-in;
+    }
+
+
+    .social a {
+        display: inline-block;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 5px 8px;
+        transition: .5s ease-in-out;
+    }
+    .company_details h2 {
+        font-size: 16px;
+    }
+
+    .summary .summary_content p {
+        font-size: 14px;
+    }
+
+
+    .testimonial_text h4 {
+        font-size: 14px;
+    }
+    .plugs h4,
+    .our_services h4,
+    .free_quote h4,
+    .address_bar h4 {
+        font-size: 16px;
+    }
+
+
+    .sum_btn a {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/*Medium*/
+
+@media (min-width:992px) and (max-width: 1199px) {
+    .sum_btn a {
+        margin-bottom: 20px;
+    }
+    .address_bar .footer_social a {
+        font-size: 16px;
+    }
+
+}
+
+
+/*Large*/
+
+@media (min-width:1200px) {}
